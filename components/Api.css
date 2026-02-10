@@ -1,0 +1,87 @@
+body{
+    background-color:rgba(182, 175, 175, 0.603);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+}
+.prod:hover{
+    transform: translateY(-9px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.prod{
+    width: 400px;
+    height: 480px;
+    margin-bottom: 30px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.prod img{
+    width: 240px;
+    height: 300px;
+}
+
+.pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pricep{
+    color: red;
+     display: flex;
+    justify-content: center;
+}   
+
+.buybtn{
+    background-color: rgb(213, 209, 209);
+    width: 70px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.buybtn:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.cartbtn{
+    background-color: rgb(213, 209, 209);
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.cartbtn:hover{
+    transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.divbtn{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+}
